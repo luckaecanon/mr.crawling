@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% load static %}
+{% block css %}
+<link rel="stylesheet" href="{% static 'posts/home1.css'%}">
+{% endblock css %}
+
+{%block body %}
+{% for post in posts %}
+
+<a href="/posts/{{post.id}}"> <h1>{{forloop.counter}} - {{post.title|title}}</h1></a>
+<p>{{post.content|truncatewords:5}}</p>
+{% empty %}
+         <h1>postov net</h1>
+
+{% endfor %}
+{% endblock body %}
+
+
+

@@ -1,0 +1,37 @@
+
+body {
+background-color: rgb(255, 142, 161);
+
+}
+
+img {
+width: 50px;
+
+}
+h1 {
+   display: inline-block;
+   background-color: rgb(233, 132, 183);
+   margin: 25px;
+   font-size: 2rem;
+   border: 2px solid pink ;
+   border-radius: 10;
+
+}
+
+a{
+
+   text-decoration:none ;
+   color: rgb(177, 118, 233);
+}
+
+footer{
+    margin-top: 8rem;
+    front-size: 0.5rem;
+    color: back
+}
+
+p{  background-color: cornsilk;
+    width: 600px;
+    border: 4px dottd black;
+    border-radius 15px;
+}
